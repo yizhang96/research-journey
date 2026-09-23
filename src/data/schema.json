@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/research-journey/genealogy.schema.json",
+  "title": "Public research-idea map",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["meta", "threads", "nodes", "edges"],
+  "properties": {
+    "meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "description", "startYear", "endYear"],
+      "properties": {
+        "title": { "type": "string" }, "subtitle": { "type": "string" }, "description": { "type": "string" },
+        "startYear": { "type": "number" }, "endYear": { "type": "number" }, "updated": { "type": "string", "format": "date" }
+      }
+    },
+    "threads": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "label", "shortLabel", "color", "order"],
+        "additionalProperties": false,
+        "properties": {
+          "id": { "type": "string" }, "label": { "type": "string" }, "shortLabel": { "type": "string" },
+          "color": { "type": "string" }, "order": { "type": "number" }
+        }
+      }
+    },
+    "nodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "title", "thread", "date", "kind", "status", "summary"],
+        "properties": {
+          "id": { "type": "string" }, "title": { "type": "string" }, "thread": { "type": "string" },
+          "date": { "type": "string", "format": "date" }, "endDate": { "type": "string", "format": "date" },
+          "kind": { "enum": ["question", "attempt", "reframing", "pivot", "setback", "revival", "integration", "publication", "event"] },
+          "status": { "type": "string" }, "summary": { "type": "string" },
+          "question": { "type": "string" }, "significance": { "type": "string" }, "url": { "type": "string", "format": "uri" },
+          "landmark": { "type": "boolean" }, "afterlifeSummary": { "type": "string" }
+        }
+      }
+    },
+    "edges": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["source", "target", "relation", "label", "date"],
+        "additionalProperties": false,
+        "properties": {
+          "source": { "type": "string" }, "target": { "type": "string" }, "relation": { "type": "string" },
+          "label": { "type": "string" }, "date": { "type": "string", "format": "date" }, "overview": { "type": "boolean" }
+        }
+      }
+    }
+  }
+}

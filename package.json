@@ -1,0 +1,12 @@
+{
+  "name": "research-journey",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "curate": "node scripts/curate-public-data.mjs",
+    "build": "node scripts/validate-public-data.mjs && node scripts/build.mjs",
+    "lint": "node scripts/lint.mjs && node scripts/validate-public-data.mjs"
+  }
+}

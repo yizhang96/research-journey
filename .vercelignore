@@ -1,0 +1,14 @@
+# Private research source material must never be uploaded to Vercel.
+research_meeting_notes*/
+working/
+private/
+
+# Source-derived analysis artifacts are local inputs, not public site assets.
+deliverables/
+
+# Local settings and generated output.
+.env
+.env.*
+.vercel/
+dist/
+*.log

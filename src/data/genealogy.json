@@ -1,0 +1,1079 @@
+{
+  "meta": {
+    "title": "The Life of Research Ideas",
+    "subtitle": "An interactive map, 2020–2026",
+    "description": "Research rarely moves in a straight line. This map shows the questions I pursued, the studies they became, where they stalled, and how earlier ideas returned in later work. Choose a research area or select any event to see what led to it and what came next.",
+    "startYear": 2020,
+    "endYear": 2026,
+    "updated": "2026-09-23"
+  },
+  "threads": [
+    {
+      "id": "empathy",
+      "label": "Empathy & social value",
+      "shortLabel": "Empathy",
+      "color": "#2f6f9f",
+      "order": 0
+    },
+    {
+      "id": "network",
+      "label": "Networks & belonging",
+      "shortLabel": "Networks",
+      "color": "#3f7d5a",
+      "order": 1
+    },
+    {
+      "id": "morality",
+      "label": "Moral disagreement",
+      "shortLabel": "Morality",
+      "color": "#b15f3e",
+      "order": 2
+    },
+    {
+      "id": "hybrid",
+      "label": "Integrations",
+      "shortLabel": "Hybrid",
+      "color": "#715aa6",
+      "order": 3
+    },
+    {
+      "id": "cross",
+      "label": "Cross-cutting questions",
+      "shortLabel": "Cross",
+      "color": "#68747c",
+      "order": 4
+    },
+    {
+      "id": "meta",
+      "label": "Research formation",
+      "shortLabel": "Meta",
+      "color": "#a0782a",
+      "order": 5
+    }
+  ],
+  "nodes": [
+    {
+      "id": "X00",
+      "title": "Research-question generation",
+      "thread": "meta",
+      "date": "2020-04-11",
+      "endDate": "2020-05-08",
+      "kind": "question",
+      "status": "completed",
+      "summary": "This early period involved broad reading and the development of several questions that later became multi-study projects."
+    },
+    {
+      "id": "X01",
+      "title": "Social inference from incomplete information",
+      "thread": "cross",
+      "date": "2020-04-21",
+      "endDate": "2020-05-08",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "Across several projects, people use limited social information to form broader expectations about another person’s character, value, and relationships."
+    },
+    {
+      "id": "E01",
+      "title": "Empathy and social-value learning",
+      "thread": "empathy",
+      "date": "2020-05-08",
+      "endDate": "2020-06-04",
+      "kind": "question",
+      "status": "completed",
+      "summary": "This question asks whether another person’s good or bad outcomes can take on value for us through experience, rather than empathy being only a stable trait.",
+      "question": "Can another person’s outcomes acquire value through experience?",
+      "significance": "This seed turned empathy from a stable trait into a learnable relation between observer, target, and outcome."
+    },
+    {
+      "id": "E02",
+      "title": "Pavlovian conditioning of empathy",
+      "thread": "empathy",
+      "date": "2020-06-04",
+      "endDate": "2021-04-23",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The first experiments tested whether basic associative learning could change how strongly people respond empathically to another person.",
+      "question": "Could a basic associative mechanism explain changes in empathic response?",
+      "significance": "The initial question became an experimental program with explicit learning predictions."
+    },
+    {
+      "id": "E03",
+      "title": "Empathy experimental paradigm",
+      "thread": "empathy",
+      "date": "2020-08-27",
+      "endDate": "2021-02-05",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The study separated learning, empathy ratings, prosocial choices, and trait measures so that their roles could be examined independently.",
+      "question": "How can learning, felt empathy, and later choice be separated?",
+      "significance": "A staged paradigm made it possible to distinguish acquisition, evaluation, and action."
+    },
+    {
+      "id": "E04",
+      "title": "Abstract mental-state generalization",
+      "thread": "empathy",
+      "date": "2021-01-12",
+      "endDate": "2022-09-22",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The project shifted from asking whether learning occurred to asking what people learned and whether it could generalize from concrete cues to another person’s mental states.",
+      "question": "What is represented when learning generalizes beyond a specific cue?",
+      "significance": "The project moved from asking whether learning occurs to asking what kind of mental representation is learned."
+    },
+    {
+      "id": "E05",
+      "title": "Associative vs evaluative learning",
+      "thread": "empathy",
+      "date": "2021-04-23",
+      "endDate": "2021-10-22",
+      "kind": "reframing",
+      "status": "completed",
+      "summary": "The work compared associative and evaluative accounts of learning, clarifying the proposed mechanism without abandoning the broader learning explanation.",
+      "question": "Is the mechanism best described as associative or evaluative learning?",
+      "significance": "Clarifying the mechanism tightened the claim without abandoning the larger learning framework."
+    },
+    {
+      "id": "E06",
+      "title": "PIT and prosocial choice",
+      "thread": "empathy",
+      "date": "2021-10-22",
+      "endDate": "2023-08-10",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "Transfer and choice tasks tested whether learned value changed later prosocial decisions, not only participants’ ratings.",
+      "question": "Does learned value transfer from ratings into prosocial choice?",
+      "significance": "A transfer task tested whether the acquired representation could guide a new action."
+    },
+    {
+      "id": "E07",
+      "title": "Mental states versus general valence",
+      "thread": "empathy",
+      "date": "2022-06-03",
+      "endDate": "2023-04-20",
+      "kind": "pivot",
+      "status": "completed",
+      "summary": "New studies asked whether participants learned about another person’s preferences and mental states or simply learned that certain stimuli were positive.",
+      "question": "Is the model learning a person’s state—or merely the positivity of a stimulus?",
+      "significance": "This construct challenge forced the project to separate person-specific mental states from general valence.",
+      "afterlifeSummary": "This shift led to a more precise account of how people learn another person’s preferences and welfare, and it clarified what the later studies needed to distinguish."
+    },
+    {
+      "id": "E08",
+      "title": "Preference and utility representation",
+      "thread": "empathy",
+      "date": "2022-09-29",
+      "endDate": "2024-10-15",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "Another person’s preferences provided a measurable way to represent their welfare and test how much that welfare mattered in later choices.",
+      "question": "Can preferences provide a tractable representation of another person’s welfare?",
+      "significance": "Person-specific utility offered a more precise bridge between abstract mental states and observable choices."
+    },
+    {
+      "id": "E09",
+      "title": "Learning the value of others' welfare",
+      "thread": "empathy",
+      "date": "2023-07-20",
+      "endDate": "2024-03-05",
+      "kind": "reframing",
+      "status": "completed",
+      "summary": "The studies converged on a central account: experience can change the value people place on another person’s welfare.",
+      "question": "How does the value of another person’s welfare become learned?",
+      "significance": "Several studies converged on a manuscript-level contribution about the acquisition of social value."
+    },
+    {
+      "id": "E10",
+      "title": "Modality and awareness boundary conditions",
+      "thread": "empathy",
+      "date": "2023-04-20",
+      "endDate": "2024-11-26",
+      "kind": "setback",
+      "status": "completed",
+      "summary": "Changes in task format and in what participants could consciously report helped identify where the proposed learning process did and did not generalize.",
+      "question": "Where does generalization stop?",
+      "significance": "Boundary conditions became part of the theory, not merely caveats around it.",
+      "afterlifeSummary": "The transfers that did not work helped define the limits of the claim. Those limits became part of the final published account rather than being discarded as failed studies."
+    },
+    {
+      "id": "E11",
+      "title": "Empathy manuscript submission and revision",
+      "thread": "empathy",
+      "date": "2024-06-03",
+      "endDate": "2025-04-02",
+      "kind": "integration",
+      "status": "completed",
+      "summary": "The studies were brought together in a manuscript that went through peer review, revision, and resubmission before reaching its final form.",
+      "question": "What is the strongest account the full program can support?",
+      "significance": "Peer review consolidated the evidence while making boundary conditions part of the final account.",
+      "landmark": true
+    },
+    {
+      "id": "E12",
+      "title": "Empathy paper accepted and published",
+      "thread": "empathy",
+      "date": "2025-05-01",
+      "endDate": "2025-07-29",
+      "kind": "publication",
+      "status": "published",
+      "summary": "The completed paper, Reward Association With Mental States Shapes Empathy and Prosocial Behavior, was accepted in May 2025 and published online in July.",
+      "question": "What did the completed program establish?",
+      "significance": "Publication made the learning account and its evidence accessible as a single, durable contribution.",
+      "url": "https://doi.org/10.1177/09567976251351304",
+      "landmark": true
+    },
+    {
+      "id": "N01",
+      "title": "Diffusion of social impressions",
+      "thread": "network",
+      "date": "2020-05-08",
+      "endDate": "2021-02-12",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "This question asks how an impression of one person spreads to other people connected to them in a social network."
+    },
+    {
+      "id": "N02",
+      "title": "Network identity and wellbeing",
+      "thread": "network",
+      "date": "2020-12-03",
+      "endDate": "2022-04-29",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "This project asks how a person’s position and relationships within a network shape belonging, group identity, health, and wellbeing."
+    },
+    {
+      "id": "N03",
+      "title": "Rejection by central network members",
+      "thread": "network",
+      "date": "2021-02-12",
+      "endDate": "2021-02-26",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The first studies tested whether rejection by a central or well-connected group member changes expectations about other people in the network."
+    },
+    {
+      "id": "N04",
+      "title": "Structured generalization along ties",
+      "thread": "network",
+      "date": "2021-02-26",
+      "endDate": "2022-11-18",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The project asked whether impressions spread in a structured way along friendship ties rather than randomly across the network."
+    },
+    {
+      "id": "N05",
+      "title": "Network density as a cue to group norms",
+      "thread": "network",
+      "date": "2022-05-20",
+      "endDate": "2023-03-30",
+      "kind": "pivot",
+      "status": "completed",
+      "summary": "This idea proposed that people use the density of a social network to infer what the group considers normal. Those inferred norms may then shape how strongly people identify with the group.",
+      "afterlifeSummary": "Limited support for the original density account redirected the project toward several other routes to belonging, including interpersonal ties, peer-recognized group prototypes, and group identity."
+    },
+    {
+      "id": "N06",
+      "title": "Direct and observational acceptance learning",
+      "thread": "network",
+      "date": "2022-07-22",
+      "endDate": "2023-02-16",
+      "kind": "reframing",
+      "status": "completed",
+      "summary": "The model distinguishes being accepted or rejected oneself from watching how other people are treated, asking how each form of learning shapes expectations."
+    },
+    {
+      "id": "N07",
+      "title": "Longitudinal real-world networks",
+      "thread": "network",
+      "date": "2022-10-26",
+      "endDate": "2024-08-30",
+      "kind": "attempt",
+      "status": "persistent",
+      "summary": "The research moved from simplified network diagrams to real groups observed through repeated nominations, interactions, and outcomes over time."
+    },
+    {
+      "id": "N08",
+      "title": "Multiple routes to belonging",
+      "thread": "network",
+      "date": "2023-03-28",
+      "endDate": "2023-09-20",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The project separated belonging into several routes: close interpersonal bonds, feeling personally accepted, and seeing the group as part of oneself."
+    },
+    {
+      "id": "N09",
+      "title": "Three-paper network program",
+      "thread": "network",
+      "date": "2023-08-25",
+      "endDate": "2023-08-25",
+      "kind": "integration",
+      "status": "completed",
+      "summary": "The network research was organized into three connected projects on how impressions generalize, how people learn from others’ acceptance, and how group prototypes relate to identity."
+    },
+    {
+      "id": "N10",
+      "title": "Peer-recognized prototypicality",
+      "thread": "network",
+      "date": "2023-08-25",
+      "endDate": "2024-08-20",
+      "kind": "attempt",
+      "status": "persistent",
+      "summary": "Peer nominations were used to identify who group members see as most representative of the group, separately from friendship or popularity."
+    },
+    {
+      "id": "N11",
+      "title": "Relational-value inference in networks",
+      "thread": "network",
+      "date": "2024-07-22",
+      "endDate": "2025-09-18",
+      "kind": "reframing",
+      "status": "completed",
+      "summary": "The project reframed network generalization as an inference about how much other people are likely to value or accept us, while comparing several reasons why network ties might support that inference."
+    },
+    {
+      "id": "N12",
+      "title": "Centrality and perceived acceptance puzzle",
+      "thread": "network",
+      "date": "2025-02-26",
+      "endDate": "2025-06-11",
+      "kind": "setback",
+      "status": "persistent",
+      "summary": "Different measures of network position did not tell the same story, reopening the question of what centrality actually captures about a person’s social standing.",
+      "afterlifeSummary": "The mismatch among measures of centrality led to a longer program separating friendship position, group prototypicality, identification, and wellbeing."
+    },
+    {
+      "id": "N13",
+      "title": "Prototypicality identity and wellbeing",
+      "thread": "network",
+      "date": "2025-03-12",
+      "endDate": "2026-01-15",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The project asks how being seen as representative of a group relates to identification, perceived fit, social position, and wellbeing."
+    },
+    {
+      "id": "N15",
+      "title": "Social network manuscript submission and revision",
+      "thread": "network",
+      "date": "2025-05-17",
+      "endDate": "2025-09-17",
+      "kind": "integration",
+      "status": "completed",
+      "summary": "The manuscript moved from drafting to submission, revision, and resubmission during 2025, bringing experimental and real-world network findings into one argument.",
+      "question": "How can the experimental and naturalistic findings form one manuscript?",
+      "significance": "The submission cycle joined network generalization, relational value, and real-world evidence into a coherent argument.",
+      "landmark": true
+    },
+    {
+      "id": "N16",
+      "title": "Social network paper published online",
+      "thread": "network",
+      "date": "2025-09-24",
+      "endDate": "2025-09-24",
+      "kind": "publication",
+      "status": "published",
+      "summary": "The published paper presents evidence that people generalize rejection and acceptance through social-network ties when forming expectations about new people.",
+      "question": "What does the completed network program contribute?",
+      "significance": "Publication established network ties as a basis for generalizing rejection and acceptance to new people.",
+      "url": "https://doi.org/10.1016/j.jesp.2025.104834",
+      "landmark": true
+    },
+    {
+      "id": "N14",
+      "title": "Prototypicality as a distinct network property",
+      "thread": "network",
+      "date": "2026-08-13",
+      "endDate": "2026-08-13",
+      "kind": "reframing",
+      "status": "active",
+      "summary": "The project treats prototypicality—being seen as representative of the group—as a network property distinct from friendship and ordinary popularity."
+    },
+    {
+      "id": "M01",
+      "title": "Moral impression and behavior regulation",
+      "thread": "morality",
+      "date": "2020-05-08",
+      "endDate": "2020-09-17",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "Early questions about moral learning developed into a broader interest in how people judge, influence, and interact with those who disagree with them."
+    },
+    {
+      "id": "M02",
+      "title": "Remaining uncertain to protect interaction",
+      "thread": "morality",
+      "date": "2020-10-29",
+      "endDate": "2021-10-11",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "This question asks whether people sometimes avoid firm conclusions about a disagreeing partner in order to preserve the possibility of a good interaction."
+    },
+    {
+      "id": "M03",
+      "title": "Affiliative motives and metaethics",
+      "thread": "morality",
+      "date": "2020-11-05",
+      "endDate": "2021-03-19",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The studies tested whether wanting affiliation with a valued partner could change how people think about the objectivity or subjectivity of moral beliefs."
+    },
+    {
+      "id": "M04",
+      "title": "Interaction reward changes moral construal",
+      "thread": "morality",
+      "date": "2021-03-12",
+      "endDate": "2021-10-29",
+      "kind": "reframing",
+      "status": "completed",
+      "summary": "The project tested whether cooperative or rewarding interactions could change how people interpret moral disagreement and whether they see moral claims as objective or subjective."
+    },
+    {
+      "id": "M05",
+      "title": "Changing the framing after data failure",
+      "thread": "morality",
+      "date": "2021-10-29",
+      "endDate": "2022-05-06",
+      "kind": "setback",
+      "status": "completed",
+      "summary": "The data did not support the proposed causal mechanism, so the project broadened into a theory of how relationship needs shape moral thought and behavior.",
+      "afterlifeSummary": "The unsupported causal account led to a broader theory of how relationships shape moral thought, followed by new surveys, interventions, and conversation studies."
+    },
+    {
+      "id": "M06",
+      "title": "Moral cognition under relational needs",
+      "thread": "morality",
+      "date": "2022-05-06",
+      "endDate": "2022-12-30",
+      "kind": "pivot",
+      "status": "persistent",
+      "summary": "The project expanded beyond one belief about morality to ask how relationship needs can change several aspects of moral judgment and behavior.",
+      "afterlifeSummary": "This shift opened a longer research program on how people regulate disagreement, moving from conceptual questions to measurement, interventions, and live conversations."
+    },
+    {
+      "id": "M07",
+      "title": "Response-strategy space",
+      "thread": "morality",
+      "date": "2022-12-22",
+      "endDate": "2023-02-02",
+      "kind": "question",
+      "status": "persistent",
+      "summary": "The focus shifted to the range of strategies people use during disagreement, such as avoiding, persuading, accepting, or reconsidering their own beliefs."
+    },
+    {
+      "id": "M08",
+      "title": "Emotion regulation as value-based choice",
+      "thread": "morality",
+      "date": "2023-04-21",
+      "endDate": "2023-07-28",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The project treats a response to disagreement as a choice shaped by emotion-regulation habits, relationship goals, and the expected costs and benefits of each strategy."
+    },
+    {
+      "id": "M09",
+      "title": "Architecture of disagreement responses",
+      "thread": "morality",
+      "date": "2023-05-12",
+      "endDate": "2025-08-28",
+      "kind": "integration",
+      "status": "persistent",
+      "summary": "This framework organizes the different ways people respond to moral disagreement and asks how emotion regulation, moral concerns, and relationship goals shape those responses.",
+      "landmark": true
+    },
+    {
+      "id": "M10",
+      "title": "Dissertation mixed-method design",
+      "thread": "morality",
+      "date": "2023-11-01",
+      "endDate": "2024-01-26",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The dissertation combined surveys, qualitative coding, interventions, and observed conversations to study disagreement from several complementary angles."
+    },
+    {
+      "id": "M11",
+      "title": "Moral-relational conflict framework",
+      "thread": "morality",
+      "date": "2024-01-05",
+      "endDate": "2025-09-18",
+      "kind": "reframing",
+      "status": "persistent",
+      "summary": "The framework treats moral disagreement as a conflict between standing by one’s moral values and protecting a valued relationship. Thoughts and behaviors can help regulate that conflict."
+    },
+    {
+      "id": "M12",
+      "title": "Everyday disagreement ecology",
+      "thread": "morality",
+      "date": "2024-06-07",
+      "endDate": "2024-08-13",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "Daily diaries and surveys about recent interactions examined which disagreement strategies people actually use together outside hypothetical scenarios."
+    },
+    {
+      "id": "M13",
+      "title": "Conversation emotion-regulation intervention",
+      "thread": "morality",
+      "date": "2024-07-19",
+      "endDate": "2025-12-16",
+      "kind": "attempt",
+      "status": "completed",
+      "summary": "The study brought mindfulness and suppression interventions into live two-person conversations and examined how they affected the interaction."
+    },
+    {
+      "id": "M14",
+      "title": "Observable-behavior conversation coding",
+      "thread": "morality",
+      "date": "2025-09-25",
+      "endDate": "2026-07-16",
+      "kind": "pivot",
+      "status": "completed",
+      "summary": "The analysis shifted from inferring hidden strategies to coding observable conversational behaviors, later adding an LLM-assisted annotation process.",
+      "afterlifeSummary": "Focusing on observable behavior made the evidence easier to evaluate, but it also exposed unanswered questions about the goals and mechanisms behind those behaviors."
+    },
+    {
+      "id": "M15",
+      "title": "Claim calibration around unresolved mechanisms",
+      "thread": "morality",
+      "date": "2026-07-27",
+      "endDate": "2026-08-06",
+      "kind": "setback",
+      "status": "active",
+      "summary": "An unexpected pattern in conversation data required more cautious claims and a clearer separation between what people did and the psychological mechanisms that might explain it.",
+      "afterlifeSummary": "Narrowing the claims did not end the project. It reopened the question of which goals arise during disagreement and how those goals shape behavior."
+    },
+    {
+      "id": "M16",
+      "title": "Regulatory goals emerging during disagreement",
+      "thread": "morality",
+      "date": "2026-08-20",
+      "endDate": "2026-08-20",
+      "kind": "revival",
+      "status": "active",
+      "summary": "A possible next project would identify the goals that arise during disagreement and test how those goals predict behavior without assuming a fixed set of strategies.",
+      "afterlifeSummary": "This is the newest direction shown on the map, so its later influence is not yet known."
+    },
+    {
+      "id": "C01",
+      "title": "Metacognitive accuracy for understanding",
+      "thread": "cross",
+      "date": "2022-03-03",
+      "endDate": "2022-03-03",
+      "kind": "attempt",
+      "status": "dormant",
+      "summary": "This short-lived project asked whether people know how accurately they understand and empathize with someone else.",
+      "afterlifeSummary": "This branch was not developed further in the period shown on the map."
+    },
+    {
+      "id": "H01",
+      "title": "Group identity and metaethics",
+      "thread": "hybrid",
+      "date": "2022-04-29",
+      "endDate": "2026-03-05",
+      "kind": "integration",
+      "status": "persistent",
+      "summary": "This line of work connects group identity with moral disagreement, asking how identification with a group shapes the way people understand morally contested issues."
+    },
+    {
+      "id": "H02",
+      "title": "Social learning and group identity",
+      "thread": "hybrid",
+      "date": "2023-08-17",
+      "endDate": "2023-08-17",
+      "kind": "integration",
+      "status": "dormant",
+      "summary": "This proposed neuroimaging project asked how social learning might produce a broader mental representation of one’s in-group.",
+      "afterlifeSummary": "This proposed direction is currently paused, and the public map does not yet document a later continuation."
+    },
+    {
+      "id": "H03",
+      "title": "Identity-relevant disagreement study",
+      "thread": "hybrid",
+      "date": "2025-09-04",
+      "endDate": "2026-03-05",
+      "kind": "integration",
+      "status": "active",
+      "summary": "This study asks whether a shared group identity, and the importance of an issue to that identity, shape how people understand and respond to moral disagreement."
+    }
+  ],
+  "edges": [
+    {
+      "source": "X00",
+      "target": "X01",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2020-04-21",
+      "overview": true
+    },
+    {
+      "source": "X01",
+      "target": "E01",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2020-05-08",
+      "overview": true
+    },
+    {
+      "source": "X01",
+      "target": "N01",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2020-05-08",
+      "overview": true
+    },
+    {
+      "source": "X01",
+      "target": "M01",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2020-05-08",
+      "overview": true
+    },
+    {
+      "source": "E01",
+      "target": "E02",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2020-06-04",
+      "overview": true
+    },
+    {
+      "source": "E02",
+      "target": "E03",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2020-08-27"
+    },
+    {
+      "source": "E02",
+      "target": "E04",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2021-01-12",
+      "overview": true
+    },
+    {
+      "source": "E02",
+      "target": "E05",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2021-04-23",
+      "overview": true
+    },
+    {
+      "source": "E05",
+      "target": "E06",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2021-10-22",
+      "overview": true
+    },
+    {
+      "source": "E04",
+      "target": "E07",
+      "relation": "pivoted_due_to_construct",
+      "label": "a problem with the construct changed the direction",
+      "date": "2022-06-03",
+      "overview": true
+    },
+    {
+      "source": "E07",
+      "target": "E08",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2022-09-29",
+      "overview": true
+    },
+    {
+      "source": "E06",
+      "target": "E09",
+      "relation": "merged",
+      "label": "merged with",
+      "date": "2023-07-20",
+      "overview": true
+    },
+    {
+      "source": "E08",
+      "target": "E09",
+      "relation": "reframed",
+      "label": "was reframed as",
+      "date": "2023-07-20",
+      "overview": true
+    },
+    {
+      "source": "E07",
+      "target": "E10",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2023-04-20",
+      "overview": true
+    },
+    {
+      "source": "E08",
+      "target": "E10",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2024-10-08"
+    },
+    {
+      "source": "E09",
+      "target": "E11",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2024-11-05",
+      "overview": true
+    },
+    {
+      "source": "E10",
+      "target": "E11",
+      "relation": "constrained",
+      "label": "was bounded by",
+      "date": "2024-11-12",
+      "overview": true
+    },
+    {
+      "source": "E11",
+      "target": "E12",
+      "relation": "published",
+      "label": "became a publication",
+      "date": "2025-07-29",
+      "overview": true
+    },
+    {
+      "source": "N01",
+      "target": "N03",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2021-02-12",
+      "overview": true
+    },
+    {
+      "source": "E02",
+      "target": "N03",
+      "relation": "method_transfer",
+      "label": "provided a method for",
+      "date": "2021-02-26"
+    },
+    {
+      "source": "N03",
+      "target": "N04",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2021-02-26",
+      "overview": true
+    },
+    {
+      "source": "N02",
+      "target": "N05",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2022-05-20",
+      "overview": true
+    },
+    {
+      "source": "N04",
+      "target": "N06",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2022-07-22"
+    },
+    {
+      "source": "N05",
+      "target": "N08",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2023-03-28",
+      "overview": true
+    },
+    {
+      "source": "N06",
+      "target": "N09",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2023-08-25"
+    },
+    {
+      "source": "N04",
+      "target": "N09",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2023-08-25"
+    },
+    {
+      "source": "N08",
+      "target": "N10",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2023-09-06",
+      "overview": true
+    },
+    {
+      "source": "N10",
+      "target": "N09",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2023-08-25"
+    },
+    {
+      "source": "N07",
+      "target": "N10",
+      "relation": "merged",
+      "label": "merged with",
+      "date": "2023-09-06",
+      "overview": true
+    },
+    {
+      "source": "N04",
+      "target": "N11",
+      "relation": "reframed",
+      "label": "was reframed as",
+      "date": "2024-07-22",
+      "overview": true
+    },
+    {
+      "source": "N07",
+      "target": "N11",
+      "relation": "merged",
+      "label": "merged with",
+      "date": "2025-01-10"
+    },
+    {
+      "source": "N07",
+      "target": "N12",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2025-02-26",
+      "overview": true
+    },
+    {
+      "source": "N10",
+      "target": "N13",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2025-03-12",
+      "overview": true
+    },
+    {
+      "source": "N12",
+      "target": "N13",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2025-05-07",
+      "overview": true
+    },
+    {
+      "source": "N13",
+      "target": "N14",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2026-08-13",
+      "overview": true
+    },
+    {
+      "source": "N11",
+      "target": "N15",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2025-05-17",
+      "overview": true
+    },
+    {
+      "source": "N15",
+      "target": "N16",
+      "relation": "published",
+      "label": "became a publication",
+      "date": "2025-09-24",
+      "overview": true
+    },
+    {
+      "source": "M01",
+      "target": "M02",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2020-10-29",
+      "overview": true
+    },
+    {
+      "source": "M02",
+      "target": "M03",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2020-11-05",
+      "overview": true
+    },
+    {
+      "source": "M03",
+      "target": "M04",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2021-03-12",
+      "overview": true
+    },
+    {
+      "source": "M04",
+      "target": "M05",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2021-10-29",
+      "overview": true
+    },
+    {
+      "source": "M05",
+      "target": "M06",
+      "relation": "reframed",
+      "label": "was reframed as",
+      "date": "2022-05-06",
+      "overview": true
+    },
+    {
+      "source": "M06",
+      "target": "M07",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2022-12-22",
+      "overview": true
+    },
+    {
+      "source": "M07",
+      "target": "M08",
+      "relation": "reframed",
+      "label": "was reframed as",
+      "date": "2023-04-21"
+    },
+    {
+      "source": "M07",
+      "target": "M09",
+      "relation": "synthesized",
+      "label": "was integrated into",
+      "date": "2023-05-12",
+      "overview": true
+    },
+    {
+      "source": "M08",
+      "target": "M09",
+      "relation": "refined",
+      "label": "refined",
+      "date": "2023-07-13",
+      "overview": true
+    },
+    {
+      "source": "M09",
+      "target": "M10",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2023-11-01",
+      "overview": true
+    },
+    {
+      "source": "M09",
+      "target": "M11",
+      "relation": "reframed",
+      "label": "was reframed as",
+      "date": "2024-01-05",
+      "overview": true
+    },
+    {
+      "source": "M10",
+      "target": "M12",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2024-06-07"
+    },
+    {
+      "source": "M10",
+      "target": "M13",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2024-07-19",
+      "overview": true
+    },
+    {
+      "source": "M13",
+      "target": "M14",
+      "relation": "pivoted_due_to_measurement",
+      "label": "prompted a change in measurement",
+      "date": "2025-09-25",
+      "overview": true
+    },
+    {
+      "source": "M14",
+      "target": "M15",
+      "relation": "pivoted_due_to_data",
+      "label": "data prompted a change in direction",
+      "date": "2026-07-27",
+      "overview": true
+    },
+    {
+      "source": "M15",
+      "target": "M16",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2026-08-20",
+      "overview": true
+    },
+    {
+      "source": "M02",
+      "target": "M11",
+      "relation": "conceptual_continuity",
+      "label": "continued in",
+      "date": "2024-01-05"
+    },
+    {
+      "source": "N02",
+      "target": "H01",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2022-04-29",
+      "overview": true
+    },
+    {
+      "source": "M03",
+      "target": "H01",
+      "relation": "merged",
+      "label": "merged with",
+      "date": "2022-04-29",
+      "overview": true
+    },
+    {
+      "source": "H01",
+      "target": "H03",
+      "relation": "operationalized",
+      "label": "became a research attempt",
+      "date": "2025-09-04",
+      "overview": true
+    },
+    {
+      "source": "M13",
+      "target": "H03",
+      "relation": "extended",
+      "label": "extended into",
+      "date": "2025-09-04"
+    },
+    {
+      "source": "N08",
+      "target": "H02",
+      "relation": "spawned",
+      "label": "opened a new branch",
+      "date": "2023-08-17",
+      "overview": true
+    },
+    {
+      "source": "E04",
+      "target": "H02",
+      "relation": "method_transfer",
+      "label": "provided a method for",
+      "date": "2023-08-17",
+      "overview": true
+    },
+    {
+      "source": "X01",
+      "target": "C01",
+      "relation": "side_branch",
+      "label": "opened a side branch",
+      "date": "2022-03-03"
+    }
+  ]
+}

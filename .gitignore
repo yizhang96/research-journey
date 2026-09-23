@@ -1,0 +1,25 @@
+# Operating-system files
+.DS_Store
+
+# Build output
+dist/
+
+# Private source archives: never publish or commit
+research_meeting_notes*/
+working/
+private/
+
+# Source-derived analytical workflow and artifacts. These remain local only.
+deliverables/
+
+# Internal editorial working document; the approved public copy lives in src/data/.
+docs/public-copy-audit.md
+
+# Logs and local settings
+*.log
+__pycache__/
+*.py[cod]
+.env
+.env.*
+!.env.example
+.vercel/
