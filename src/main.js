@@ -339,8 +339,6 @@ function renderDetail(node, origins, afterlife) {
     <h2>${escapeHtml(node.title)}</h2>
     <div class="event-identity" style="color:${thread.color}">${escapeHtml(thread.label)} · ${escapeHtml(KIND_LABELS[node.kind] || node.kind)}</div>
     <p>${escapeHtml(node.summary)}</p>
-    ${node.question ? `<hr class="detail-rule"><div class="eyebrow">Guiding question</div><p>${escapeHtml(node.question)}</p>` : ''}
-    ${node.significance ? `<div class="eyebrow">Why it mattered</div><p>${escapeHtml(node.significance)}</p>` : ''}
     ${publication}
     <hr class="detail-rule">
     <dl class="detail-meta"><dt>Began</dt><dd>${date}</dd><dt>Status</dt><dd>${escapeHtml(STATUS_LABELS[node.status] || node.status)}</dd></dl>
